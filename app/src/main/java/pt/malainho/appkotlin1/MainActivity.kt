@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Variáveis
         variaveisNumerosInteiros()
         variaveisNumerosFracionarios()
         variaveisCarateres()
@@ -55,7 +56,6 @@ class MainActivity : AppCompatActivity() {
         var f = 1f
         var fa : Float?
 
-        var d = 1.50E+308
         var da : Double?
 
         // Constantes para saber a capacidade minima e máxima de um tipo de dados
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
     private fun variaveisCarateres() {
         // Variável para conter apenas um caracter
         var letra = 'E'
-        var sexo = 0.toChar()
+        var sexo = 0.toChar() // '0'
         var nomePorta : Char?
 
         // Constantes para obter a capacidade minima e máxima de um tipo de dados
@@ -94,7 +94,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun cadeiasCarateres() {
-        var curso = "Aprenda Android do básico ao profissional"
+        // String
+        var curso = "Aprenda Kotlin do básico ao profissional"
         var texto : String = """
            Bem-vendo ao\n 
                 curso de Kotlin da\n 
@@ -102,4 +103,4 @@ class MainActivity : AppCompatActivity() {
         """.trimIndent()
         var s : String?
     }
-}
+}G
